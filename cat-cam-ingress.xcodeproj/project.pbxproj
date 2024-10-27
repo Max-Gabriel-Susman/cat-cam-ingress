@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		000EC93C2CCDDD680006C048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000EC9222CCDDD670006C048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000EC9292CCDDD670006C048;
+			remoteInfo = "cat-cam-ingress";
+		};
+		000EC9462CCDDD680006C048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000EC9222CCDDD670006C048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000EC9292CCDDD670006C048;
+			remoteInfo = "cat-cam-ingress";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000EC92A2CCDDD670006C048 /* cat-cam-ingress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cat-cam-ingress.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		000EC93B2CCDDD680006C048 /* cat-cam-ingressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cat-cam-ingressTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		000EC9452CCDDD680006C048 /* cat-cam-ingressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cat-cam-ingressUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		000EC92C2CCDDD670006C048 /* cat-cam-ingress */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "cat-cam-ingress";
+			sourceTree = "<group>";
+		};
+		000EC93E2CCDDD680006C048 /* cat-cam-ingressTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "cat-cam-ingressTests";
+			sourceTree = "<group>";
+		};
+		000EC9482CCDDD680006C048 /* cat-cam-ingressUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "cat-cam-ingressUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000EC9272CCDDD670006C048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000EC9382CCDDD680006C048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000EC9422CCDDD680006C048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000EC9212CCDDD670006C048 = {
+			isa = PBXGroup;
+			children = (
+				000EC92C2CCDDD670006C048 /* cat-cam-ingress */,
+				000EC93E2CCDDD680006C048 /* cat-cam-ingressTests */,
+				000EC9482CCDDD680006C048 /* cat-cam-ingressUITests */,
+				000EC92B2CCDDD670006C048 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000EC92B2CCDDD670006C048 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000EC92A2CCDDD670006C048 /* cat-cam-ingress.app */,
+				000EC93B2CCDDD680006C048 /* cat-cam-ingressTests.xctest */,
+				000EC9452CCDDD680006C048 /* cat-cam-ingressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000EC9292CCDDD670006C048 /* cat-cam-ingress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000EC94F2CCDDD680006C048 /* Build configuration list for PBXNativeTarget "cat-cam-ingress" */;
+			buildPhases = (
+				000EC9262CCDDD670006C048 /* Sources */,
+				000EC9272CCDDD670006C048 /* Frameworks */,
+				000EC9282CCDDD670006C048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				000EC92C2CCDDD670006C048 /* cat-cam-ingress */,
+			);
+			name = "cat-cam-ingress";
+			packageProductDependencies = (
+			);
+			productName = "cat-cam-ingress";
+			productReference = 000EC92A2CCDDD670006C048 /* cat-cam-ingress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		000EC93A2CCDDD680006C048 /* cat-cam-ingressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000EC9522CCDDD680006C048 /* Build configuration list for PBXNativeTarget "cat-cam-ingressTests" */;
+			buildPhases = (
+				000EC9372CCDDD680006C048 /* Sources */,
+				000EC9382CCDDD680006C048 /* Frameworks */,
+				000EC9392CCDDD680006C048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000EC93D2CCDDD680006C048 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				000EC93E2CCDDD680006C048 /* cat-cam-ingressTests */,
+			);
+			name = "cat-cam-ingressTests";
+			packageProductDependencies = (
+			);
+			productName = "cat-cam-ingressTests";
+			productReference = 000EC93B2CCDDD680006C048 /* cat-cam-ingressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		000EC9442CCDDD680006C048 /* cat-cam-ingressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000EC9552CCDDD680006C048 /* Build configuration list for PBXNativeTarget "cat-cam-ingressUITests" */;
+			buildPhases = (
+				000EC9412CCDDD680006C048 /* Sources */,
+				000EC9422CCDDD680006C048 /* Frameworks */,
+				000EC9432CCDDD680006C048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000EC9472CCDDD680006C048 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				000EC9482CCDDD680006C048 /* cat-cam-ingressUITests */,
+			);
+			name = "cat-cam-ingressUITests";
+			packageProductDependencies = (
+			);
+			productName = "cat-cam-ingressUITests";
+			productReference = 000EC9452CCDDD680006C048 /* cat-cam-ingressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000EC9222CCDDD670006C048 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					000EC9292CCDDD670006C048 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					000EC93A2CCDDD680006C048 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 000EC9292CCDDD670006C048;
+					};
+					000EC9442CCDDD680006C048 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 000EC9292CCDDD670006C048;
+					};
+				};
+			};
+			buildConfigurationList = 000EC9252CCDDD670006C048 /* Build configuration list for PBXProject "cat-cam-ingress" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000EC9212CCDDD670006C048;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 000EC92B2CCDDD670006C048 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000EC9292CCDDD670006C048 /* cat-cam-ingress */,
+				000EC93A2CCDDD680006C048 /* cat-cam-ingressTests */,
+				000EC9442CCDDD680006C048 /* cat-cam-ingressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000EC9282CCDDD670006C048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000EC9392CCDDD680006C048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000EC9432CCDDD680006C048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000EC9262CCDDD670006C048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000EC9372CCDDD680006C048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000EC9412CCDDD680006C048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000EC93D2CCDDD680006C048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000EC9292CCDDD670006C048 /* cat-cam-ingress */;
+			targetProxy = 000EC93C2CCDDD680006C048 /* PBXContainerItemProxy */;
+		};
+		000EC9472CCDDD680006C048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000EC9292CCDDD670006C048 /* cat-cam-ingress */;
+			targetProxy = 000EC9462CCDDD680006C048 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000EC94D2CCDDD680006C048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		000EC94E2CCDDD680006C048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		000EC9502CCDDD680006C048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "cat-cam-ingress/cat_cam_ingress.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cat-cam-ingress/Preview Content\"";
+				DEVELOPMENT_TEAM = 354UWT7ZK9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prometheus.cat-cam-ingress";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		000EC9512CCDDD680006C048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "cat-cam-ingress/cat_cam_ingress.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cat-cam-ingress/Preview Content\"";
+				DEVELOPMENT_TEAM = 354UWT7ZK9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prometheus.cat-cam-ingress";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		000EC9532CCDDD680006C048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 354UWT7ZK9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prometheus.cat-cam-ingressTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cat-cam-ingress.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cat-cam-ingress";
+			};
+			name = Debug;
+		};
+		000EC9542CCDDD680006C048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 354UWT7ZK9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prometheus.cat-cam-ingressTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cat-cam-ingress.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cat-cam-ingress";
+			};
+			name = Release;
+		};
+		000EC9562CCDDD680006C048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 354UWT7ZK9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prometheus.cat-cam-ingressUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "cat-cam-ingress";
+			};
+			name = Debug;
+		};
+		000EC9572CCDDD680006C048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 354UWT7ZK9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prometheus.cat-cam-ingressUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "cat-cam-ingress";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000EC9252CCDDD670006C048 /* Build configuration list for PBXProject "cat-cam-ingress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000EC94D2CCDDD680006C048 /* Debug */,
+				000EC94E2CCDDD680006C048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000EC94F2CCDDD680006C048 /* Build configuration list for PBXNativeTarget "cat-cam-ingress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000EC9502CCDDD680006C048 /* Debug */,
+				000EC9512CCDDD680006C048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000EC9522CCDDD680006C048 /* Build configuration list for PBXNativeTarget "cat-cam-ingressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000EC9532CCDDD680006C048 /* Debug */,
+				000EC9542CCDDD680006C048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000EC9552CCDDD680006C048 /* Build configuration list for PBXNativeTarget "cat-cam-ingressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000EC9562CCDDD680006C048 /* Debug */,
+				000EC9572CCDDD680006C048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000EC9222CCDDD670006C048 /* Project object */;
+}

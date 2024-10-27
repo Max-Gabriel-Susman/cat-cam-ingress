@@ -1,0 +1,37 @@
+
+name: macOS CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: macos-latest
+
+    steps:
+      # Check out the code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Set up Xcode
+      - name: Set up Xcode
+        uses: maxim-lobanov/setup-xcode@v2
+        with:
+          xcode-version: '14.0' # Set to the Xcode version you need
+
+      # Build and Test the project
+      - name: Build and test
+        run: |
+          xcodebuild \
+            -scheme "<YourSchemeName>" \
+            -sdk macosx \
+            -destination 'platform=macOS' \
+            clean test
+        env:
+          # Set any necessary environment variables here
+          CI: true

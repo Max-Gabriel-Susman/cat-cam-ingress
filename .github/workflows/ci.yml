@@ -22,7 +22,7 @@ jobs:
       - name: Set up Xcode
         uses: maxim-lobanov/setup-xcode@v1
         with:
-          xcode-version: '14.0' # Set to the Xcode version you need
+          xcode-version: '16.0' # Set to the Xcode version you need
 
       # Build and Test the project
       - name: Build and test

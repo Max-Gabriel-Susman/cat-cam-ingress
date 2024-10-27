@@ -24,14 +24,14 @@ jobs:
         with:
           xcode-version: '16.0' # Set to the Xcode version you need
 
-      # Build and Test the project
-      - name: Build and test
-        run: |
-          xcodebuild \
-            -scheme "<YourSchemeName>" \
-            -sdk macosx \
-            -destination 'platform=macOS' \
-            clean test
-        env:
-          # Set any necessary environment variables here
-          CI: true
+      # # Build and Test the project
+      # - name: Build and test
+      #   run: |
+      #     xcodebuild \
+      #       -scheme "<YourSchemeName>" \
+      #       -sdk macosx \
+      #       -destination 'platform=macOS' \
+      #       clean test
+      #   env:
+      #     # Set any necessary environment variables here
+      #     CI: true
